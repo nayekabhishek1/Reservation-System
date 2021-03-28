@@ -10,6 +10,7 @@ This is a simple reservation system using Angular and Spring Boot
 4. To run the docker image -> docker run --name mongodb -p 27017:27017 mongo
 5. Run the backend springboot application
 6. Run the frontend angular application
+7. To test using postman -> import the reactive-app.postman_collection.json file into postman from the testing directory under root.
 
 
 #Screens
