@@ -1,0 +1,16 @@
+package com.nayek.reservation.system.service;
+
+import com.nayek.reservation.system.model.Reservation;
+
+import reactor.core.publisher.Mono;
+
+public interface ReservationService {
+
+	Mono<Reservation> getReservation(String priceName);
+
+	Mono<Reservation> createReservation(Mono<Reservation> reservation);
+
+	Mono<Reservation> updateReservationMono(String idString, Mono<Reservation> reservation);
+
+	Mono<Boolean> deleteReservation(String id);
+}

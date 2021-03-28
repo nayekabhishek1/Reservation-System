@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract constant &apos;ROOM_V1_RESERVATION&apos; from expression &apos;&quot;/room/v1/reservation/&quot;&apos;&#x0D;&#x0A;- Original project: &apos;reservation.system&apos;&#x0D;&#x0A;- Constant name: &apos;ROOM_V1_RESERVATION&apos;&#x0D;&#x0A;- Constant expression: &apos;&quot;/room/v1/reservation/&quot;&apos;&#x0D;&#x0A;- Declared visibility: &apos;(package)&apos;&#x0D;&#x0A;- Replace occurrences of expression with constant" description="Extract constant &apos;ROOM_V1_RESERVATION&apos;" flags="786434" id="org.eclipse.jdt.ui.extract.constant" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nayek.reservation.system.controller{ReservationResource.java" name="ROOM_V1_RESERVATION" qualify="false" replace="true" selection="229 0" stamp="1615722738658" version="1.0" visibility="0"/>
+</session>

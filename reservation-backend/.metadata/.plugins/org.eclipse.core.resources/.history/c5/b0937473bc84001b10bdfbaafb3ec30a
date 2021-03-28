@@ -1,0 +1,5 @@
+package com.nayek.reservation.system.controller;
+
+public class ReservationResource {
+
+}

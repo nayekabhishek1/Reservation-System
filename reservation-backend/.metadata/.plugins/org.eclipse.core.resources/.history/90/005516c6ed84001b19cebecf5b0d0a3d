@@ -1,0 +1,43 @@
+package com.nayek.reservation.system.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.ReactiveMongoOperations;
+
+import com.nayek.reservation.system.model.Reservation;
+
+import reactor.core.publisher.Mono;
+
+public class ReservationServiceImpl implements ReservationService {
+
+	private final ReactiveMongoOperations reactiveMongoOperations;
+
+	@Autowired
+	public ReservationServiceImpl(ReactiveMongoOperations reactiveMongoOperations) {
+		this.reactiveMongoOperations = reactiveMongoOperations;
+	}
+
+	@Override
+	public Mono<Reservation> getReservation(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Mono<Reservation> createReservation(Mono<Reservation> reservation) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Mono<Reservation> updateReservationMono(String idString, Mono<Reservation> reservation) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Mono<Boolean> deleteReservation(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.nayek.reservation.system.service;
+
+public class ReservationServiceImpl {
+
+}

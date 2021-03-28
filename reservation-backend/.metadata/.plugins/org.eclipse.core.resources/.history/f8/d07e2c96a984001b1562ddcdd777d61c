@@ -1,0 +1,5 @@
+package com.nayek.reservation.system.config;
+
+public class DataConfig {
+
+}

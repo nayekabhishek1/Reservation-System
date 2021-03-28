@@ -1,0 +1,21 @@
+package com.nayek.reservation.system.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.reactive.config.EnableWebFlux;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@Configuration
+@EnableWebFlux
+public class ApiConfig {
+	
+	
+	public ObjectMapper objectMapper()
+	{
+		ObjectMapper objectMapper = new ObjectMapper();
+		objectMapper.registerModule(new Java)
+		return null;
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.nayek.reservation.system.controller;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+class ReservationResourceTest {
+
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+	}
+
+	@Test
+	void testCreateReservation() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetAllReservations() {
+		fail("Not yet implemented");
+	}
+
+}

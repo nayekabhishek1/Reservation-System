@@ -1,0 +1,71 @@
+package com.nayek.reservation.system.model;
+
+import java.time.LocalDate;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
+
+@Document
+public class Reservation {
+
+	private Long roomNumber;
+	@DateTimeFormat(iso = ISO.DATE)
+	private LocalDate checkin;
+	@DateTimeFormat(iso = ISO.DATE)
+	private LocalDate checkout;
+	private Integer price;
+
+	@Id
+	private String id;
+
+	public Reservation() {
+		super();
+	}
+
+	public Reservation(Long roomNumber, LocalDate checkInDate, LocalDate checkOutDate, Integer price) {
+		super();
+		this.roomNumber = roomNumber;
+		this.checkin = checkInDate;
+		this.checkout = checkOutDate;
+		this.price = price;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public LocalDate getCheckInDate() {
+		return checkin;
+	}
+
+	public void setCheckInDate(LocalDate checkInDate) {
+		this.checkin = checkInDate;
+	}
+
+	public LocalDate getCheckOutDate() {
+		return checkout;
+	}
+
+	public void setCheckOutDate(LocalDate checkOutDate) {
+		this.checkout = checkOutDate;
+	}
+
+	public Integer getPrice() {
+		return price;
+	}
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
+
+	public Long getRoomNumber() {
+		return roomNumber;
+	}
+
+	public void setRoomNumber(Long roomNumber) {
+		this.roomNumber = roomNumber;
+	}
+
+}
