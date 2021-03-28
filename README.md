@@ -1,3 +1,4 @@
+
 # Reservation-System
 This is a simple reservation system using Angular and Spring Boot
 
@@ -12,3 +13,10 @@ This is a simple reservation system using Angular and Spring Boot
 
 
 #Screens
+
+<img width="543" alt="snap 1" src="https://user-images.githubusercontent.com/13417552/112759003-bffe7b80-900e-11eb-9e60-eebd06729548.PNG">
+
+<img width="363" alt="snap 2" src="https://user-images.githubusercontent.com/13417552/112759024-d1e01e80-900e-11eb-849b-0bf46152a611.PNG">
+
+<img width="382" alt="snap 3" src="https://user-images.githubusercontent.com/13417552/112759030-da385980-900e-11eb-8512-3a321cc7a278.PNG">
+
